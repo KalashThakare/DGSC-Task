@@ -135,12 +135,33 @@ export default function Home() {
 
 
 
-        <div>
-          <div className="grid grid-cols-4  h-[210px]">
-            <div className="flex justify-center items-center">
-              <div className="bg-[url('/icons/Group5.jpg')] bg-auto bg-center w-full flex justify-center items-center">
-                <h3 className="flex justify-center items-center font-bold text-[75px]">
+        <div className="mt-[230px] mb-[230px] mr-8 ml:8">
+          <div className="grid grid-cols-4 gap-4 ">
+            <div>
+              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
+                <h3 className="flex font-bold text-[75px] text-center">
                   03+
+                </h3>
+              </div>
+            </div>
+            <div>
+              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
+                <h3 className="flex justify-center items-center font-bold text-[75px] text-center">
+                  10+
+                </h3>
+              </div>
+            </div>
+            <div>
+              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
+                <h3 className="flex justify-center items-center font-bold text-[75px] text-center">
+                  1K+
+                </h3>
+              </div>
+            </div>
+            <div>
+              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
+                <h3 className="flex justify-center items-center font-bold text-[75px] text-center">
+                  200+
                 </h3>
               </div>
             </div>
