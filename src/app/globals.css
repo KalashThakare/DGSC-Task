@@ -32,3 +32,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+@media (max-width: 1023px) {
+  .semism {
+      font-size: 3rem;
+  }
+}
+@media (max-width: 563px) {
+  .semism-1 {
+      font-size: 1.5rem;
+  }
+}
+
