@@ -2,10 +2,11 @@ import { Navbar } from "@/components/navbar";
 import { Faq } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Knowus } from "@/components/knowus";
+import { Technologies } from "@/components/technologies";
 
 export default function Home() {
   return (
-    <div className="font-sans m-1 p-1 justify-center items-center mx-auto mt-0 pt-0">
+    <div className="font-sans justify-center items-center mx-auto mt-0 pt-0 bg-[]">
       <Navbar />
       <section className="font-sans m-1 p-1 justify-center items-center mx-auto">
       
@@ -52,29 +53,29 @@ export default function Home() {
 
         <div className="mt-[21.875rem] mb-[21.875rem] mr-8 ml:8">
           <div className="grid grid-cols-4 gap-4 ">
-            <div>
+            <div className="h-[16rem]">
               <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
                 <h3 className="flex font-bold text-[4.6875rem] text-center">
                   03+
                 </h3>
               </div>
             </div>
-            <div>
+            <div className="h-[16rem]">
               <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
                 <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
                   10+
                 </h3>
               </div>
             </div>
-            <div>
+            <div className="h-[16rem]">
               <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
                 <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
                   1K+
                 </h3>
               </div>
             </div>
-            <div>
-              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
+            <div className="h-[16rem]">
+              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain ">
                 <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
                   200+
                 </h3>
@@ -85,7 +86,7 @@ export default function Home() {
       
 
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 xl:grid-cols-3 ">
           <div className="flex justify-center items-center m-3">
             <div className="border-[#FF6060] border-[0.375rem] w-full">
             </div>
@@ -106,6 +107,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Technologies />
 
       <Faq />
 
