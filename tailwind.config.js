@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'conic-gradient': 'conic-gradient(#EA4435 0% 25%, #547DBF 25% 50%, #F9BC15 50% 75%, #33A852 75% 100%)',
+      },
     },
   },
   plugins: [],

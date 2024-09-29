@@ -6,7 +6,7 @@ import { Technologies } from "@/components/technologies";
 
 export default function Home() {
   return (
-    <div className="font-sans justify-center items-center mx-auto mt-0 pt-0 bg-[]">
+    <div className="font-sans justify-center items-center mx-auto mt-0 pt-0 bg-[] w-full">
       <Navbar />
       <section className="font-sans m-1 p-1 justify-center items-center mx-auto">
       
@@ -52,35 +52,58 @@ export default function Home() {
 
 
         <div className="mt-[21.875rem] mb-[21.875rem] mr-8 ml:8">
-          <div className="grid grid-cols-4 gap-4 ">
-            <div className="h-[16rem]">
-              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
-                <h3 className="flex font-bold text-[4.6875rem] text-center">
-                  03+
-                </h3>
+          <div className="grid md:grid-rows-4 md:grid-cols-1 xl:grid-cols-4 xl:grid-rows-1 sm:grid-rows-4 sm:grid-cols-1 gap-20">
+            <div>
+              <div className="">
+                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
+                  <h3 className="flex font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
+                    03+
+                  </h3>
+                </div>
+              </div>
+              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
+                Years
               </div>
             </div>
-            <div className="h-[16rem]">
-              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
-                <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
-                  10+
-                </h3>
+
+            <div>
+              <div className="">
+                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
+                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
+                    10+
+                  </h3>
+                </div>
+              </div>
+              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
+                Events
               </div>
             </div>
-            <div className="h-[16rem]">
-              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain">
-                <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
-                  1K+
-                </h3>
+            
+            <div>
+              <div className="">
+                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
+                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
+                    1K+
+                  </h3>
+                </div>
+              </div>
+              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
+                Community Members
               </div>
             </div>
-            <div className="h-[16rem]">
-              <div className="bg-[url('/icons/Group5.jpg')] bg-no-repeat bg-center w-full flex justify-center items-center bg-contain ">
-                <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center">
-                  200+
-                </h3>
+            <div>
+              <div className="">
+                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
+                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
+                    200+
+                  </h3>
+                </div>
+              </div>
+              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
+                Attendees
               </div>
             </div>
+            
           </div>
         </div>
       

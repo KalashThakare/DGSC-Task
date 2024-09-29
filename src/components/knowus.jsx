@@ -11,7 +11,7 @@ export const Knowus = () => {
             </div>
           <div className="grid lg:grid-cols-2 lg:grid-rows-1 sm:grid-rows-2 mx-h-[33.3125rem]"> 
               <div className="flex justify-center items-center">
-                <img src="/icons/mission.jpg" alt="" />
+                <img src="/icons/ourmission.png" alt="" />
               </div>
               <div className="flex items-center justify-end text-right">
                 <div className="pr-5 border-r-[12px] border-[#4285F4] rounded-lg">
