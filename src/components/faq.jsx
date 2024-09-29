@@ -15,7 +15,7 @@ export const Faq = () => {
                 <div className="border-[#E1E1E1] rounded-[54px] border-[10px]">
                   <div className="flex items-center">
                     <div className="m-3 ml-10 justify-start">
-                      <img src="/icons/vectorred.jpg" alt="" />
+                      <img src="/icons/vectorred.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center m-3 ">
                       <h3 className="text-[2rem] text-[#5F5F5F] font-bold">
@@ -31,7 +31,7 @@ export const Faq = () => {
               <div className="border-l-[#DB4437] rounded-[15px] border-l-[15px] ">
                 <div className="border-[#E1E1E1] rounded-l-[0px] rounded-r-[17px] border-l-[10px] border-[17px] p-6">
                   <p className="text-[1.5625rem] text-[#5F5F5F] font-[400] ">
-                  Google Developer Groups (GDG) are community groups for college and university students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a GDG, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
+                    Google Developer Groups (GDG) are community groups for college and university students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a GDG, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
                   </p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export const Faq = () => {
                 <div className="border-[#E1E1E1] rounded-[54px] border-[10px]">
                   <div className="flex items-center">
                     <div className="m-3 ml-10 justify-start">
-                      <img src="/icons/vectorgreen.jpg" alt="" />
+                      <img src="/icons/vectorgreen.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center m-3 ">
                       <h3 className="text-[2rem] text-[#5F5F5F] font-bold">
@@ -73,7 +73,7 @@ export const Faq = () => {
                 <div className="border-[#E1E1E1] rounded-[54px] border-[10px]">
                   <div className="flex items-center">
                     <div className="m-3 ml-10 justify-start">
-                      <img src="/icons/vectorblue.jpg" alt="" />
+                      <img src="/icons/vectorblue.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center m-3 ">
                       <h3 className="text-[2rem] text-[#5F5F5F] font-bold">
@@ -102,7 +102,7 @@ export const Faq = () => {
                 <div className="border-[#E1E1E1] rounded-[54px] border-[10px]">
                   <div className="flex items-center">
                     <div className="m-3 ml-10 justify-start">
-                      <img src="/icons/vectoryellow.jpg" alt="" />
+                      <img src="/icons/vectoryellow.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center m-3 ">
                       <h3 className="text-[2rem] text-[#5F5F5F] font-bold">
@@ -131,7 +131,7 @@ export const Faq = () => {
                 <div className="border-[#E1E1E1] rounded-[54px] border-[10px]">
                   <div className="flex items-center">
                     <div className="m-3 ml-10 justify-start">
-                      <img src="/icons/vectorred.jpg" alt="" />
+                      <img src="/icons/vectorred.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center m-3 ">
                       <h3 className="text-[2rem] text-[#5F5F5F] font-bold">

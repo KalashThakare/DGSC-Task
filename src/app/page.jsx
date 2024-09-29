@@ -4,12 +4,28 @@ import { Footer } from "@/components/footer";
 import { Knowus } from "@/components/knowus";
 import { Technologies } from "@/components/technologies";
 
+
 export default function Home() {
   return (
     <div className="font-sans justify-center items-center mx-auto mt-0 pt-0 bg-[] w-full">
       <Navbar />
       <section className="font-sans m-1 p-1 justify-center items-center mx-auto">
-      
+      <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center text-center text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.44rem] font-[700]">
+          <span className="text-[#4285F4]">G</span>
+          <span className="text-[#EA4335]">o</span>
+          <span className="text-[#FBBC04]">o</span>
+          <span className="text-[#4285F4]">g</span>
+          <span className="text-[#0F9D58]">l</span>
+          <span className="text-[#EA4335] mr-3">e</span> Developer Groups
+        </div>
+      </div>
+
+      <div>
+        <div className="flex justify-center items-center text-[#646464] lg:text-[3.125rem] text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-[700]">
+          RBU Chapter
+        </div>
+      </div>
 
       <div className="flex justify-center items-center pt-2">
         <img src="/icons/OBJECTS.png" alt="" />
