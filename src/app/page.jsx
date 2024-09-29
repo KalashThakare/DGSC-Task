@@ -1,42 +1,20 @@
+
 import { Navbar } from "@/components/navbar";
 import { Faq } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Knowus } from "@/components/knowus";
 import { Technologies } from "@/components/technologies";
+import { Badges } from "@/components/badges";
+import { Hero } from "@/components/hero";
+
 
 
 export default function Home() {
   return (
-    <div className="font-sans justify-center items-center mx-auto mt-0 pt-0 bg-[] w-full">
+    <div className="font-sans justify-center items-center mx-auto mt-0 mb-0 pt-0  w-full">
       <Navbar />
-      <section className="font-sans m-1 p-1 justify-center items-center mx-auto">
-      <div className="flex justify-center items-center">
-        <div className="flex justify-center items-center text-center text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.44rem] font-[700]">
-          <span className="text-[#4285F4]">G</span>
-          <span className="text-[#EA4335]">o</span>
-          <span className="text-[#FBBC04]">o</span>
-          <span className="text-[#4285F4]">g</span>
-          <span className="text-[#0F9D58]">l</span>
-          <span className="text-[#EA4335] mr-3">e</span> Developer Groups
-        </div>
-      </div>
-
-      <div>
-        <div className="flex justify-center items-center text-[#646464] lg:text-[3.125rem] text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-[700]">
-          RBU Chapter
-        </div>
-      </div>
-
-      <div className="flex justify-center items-center pt-2">
-        <img src="/icons/OBJECTS.png" alt="" />
-      </div>
-      <div className="flex justify-center items-center p-2 mb-20">
-        <div className="justify-center items-center w-[58.4375rem] h-[8.4375rem] m-5 mx-auto">
-          <h3 className="font-semibold text-[2.1875rem] semism-1 text-[#5F5F5F] text-center">
-            Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies.
-          </h3>
-        </div>
-      </div>
+      <section className="font-sans justify-center items-center mx-auto">
+      <Hero />
 
       <div className="grid grid-rows-3 justify-center items-center m-2 p-2">
         <div className="h-[70px] left-[615px] rounded-md bg-[#3686F7] text-white font-bold justify-center items-center text-center flex m-8">
@@ -67,61 +45,7 @@ export default function Home() {
       <Knowus />
 
 
-        <div className="mt-[21.875rem] mb-[21.875rem] mr-8 ml:8">
-          <div className="grid md:grid-rows-4 md:grid-cols-1 xl:grid-cols-4 xl:grid-rows-1 sm:grid-rows-4 sm:grid-cols-1 gap-20">
-            <div>
-              <div className="">
-                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
-                  <h3 className="flex font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
-                    03+
-                  </h3>
-                </div>
-              </div>
-              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
-                Years
-              </div>
-            </div>
-
-            <div>
-              <div className="">
-                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
-                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
-                    10+
-                  </h3>
-                </div>
-              </div>
-              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
-                Events
-              </div>
-            </div>
-            
-            <div>
-              <div className="">
-                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
-                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
-                    1K+
-                  </h3>
-                </div>
-              </div>
-              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
-                Community Members
-              </div>
-            </div>
-            <div>
-              <div className="">
-                <div className="bg-[url('/icons/circle.png')] bg-no-repeat bg-center flex justify-center items-center bg-contain h-[15rem]">
-                  <h3 className="flex justify-center items-center font-bold text-[4.6875rem] text-center text-[#5F5F5F]">
-                    200+
-                  </h3>
-                </div>
-              </div>
-              <div className="items-center text-center text-[42px] font-[400] text-[#353535]">
-                Attendees
-              </div>
-            </div>
-            
-          </div>
-        </div>
+      <Badges />
       
 
       <div>
@@ -151,11 +75,7 @@ export default function Home() {
 
       <Faq />
 
-
-
     {/* footer */}
-
-
 
       <Footer />
 
